@@ -1,22 +1,21 @@
 function pageCrusher() {
     while(true){
-        console.log("crush")
+        console.log("crush");
     }
 }
 
 function reversedWord(text) {
-let newWord = ''
-for (let i in text){
-
-    if (text.toUpperCase()[i] === text[i]){
-        newWord = newWord + text.toLowerCase()[i]
-    }
-    else{
-        newWord = newWord + text.toUpperCase()[i]
+    let newWord = '';
+    for (let i in text) {
+        if (text.toUpperCase()[i] === text[i]) {
+            newWord += text.toLowerCase()[i];
+        }
+        else {
+            newWord += text.toUpperCase()[i];
         }
     }
-console.log(newWord)
+    console.log(newWord);
 }
 
-reversedWord('teSt')
-pageCrusher()
+reversedWord('teSt');
+pageCrusher();
