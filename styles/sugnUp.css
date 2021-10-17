@@ -1,0 +1,88 @@
+
+
+#sign-up-image{
+    position: absolute;
+    top: 264px;
+    left: 1219px;
+    width: 146px;
+    height: 51px;
+    background: transparent url('images/SignUp.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#Email{
+    position: absolute;
+    top: 375px;
+    left: 1219px;
+    width: 36px;
+    height: 19px;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+}
+#email-input{
+    position: absolute;
+    top: 420px;
+    left: 1219px;
+    width: 442px;
+    height: 50px;
+    border: 1px solid #DBDFEB;
+    border-radius: 8px;
+    opacity: 1;
+}
+#password{
+    position: absolute;
+    top: 484px;
+    left: 1219px;
+    width: 111px;
+    height: 19px;
+}
+#password-input{
+    position: absolute;
+    top: 523px;
+    left: 1219px;
+    width: 442px;
+    height: 50px;
+    background: transparent  0% 0% no-repeat padding-box;
+    border: 1px solid #DBDFEB;
+    border-radius: 8px;
+
+}
+#password-confirm{
+    position: absolute;
+    top: 593px;
+    left: 1219px;
+    width: 120px;
+    height: 19px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#password-confirm-input{
+    position: absolute;
+    top: 632px;
+    left: 1219px;
+    width: 442px;
+    height: 50px;
+    background: transparent 0% 0% no-repeat padding-box;
+    border: 1px solid #DBDFEB;
+    border-radius: 8px;
+    opacity: 1;
+}
+#sign-up-button{
+    position: absolute;
+    top: 723px;
+    left: 1358px;
+    width: 164px;
+    height: 50px;
+    background: transparent url('images/signUpButton.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#sign-in{
+    position: absolute;
+    top: 797px;
+    left: 1418px;
+    height: 19px;
+}
+@media  (min-width: 1200px){
+    #page{
+    display: grid;
+    }
+}

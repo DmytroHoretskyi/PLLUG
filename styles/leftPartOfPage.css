@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 1920px;
+}
+#page{
+    display: flex;
+}
+#left-part{
+    background-image: url("images/health.png");
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 960px;
+    height: 1080px;
+}
+#health{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    width: 191px;
+    height: 60px;
+    margin: 0;
+    text-align: left;
+    font-size: 50px;
+    line-height: 61px;
+    font-family: "Bebas Neue", serif ;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #FFFFFF;
+}
+#health:first-letter{
+    color: #E2222D;
+}
+#header{
+    color: #FFFFFF;
+    position: absolute;
+    top: 264px;
+    left: 90px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+}
+#text{
+    color: #FFFFFF;
+    position: absolute;
+    top: 322px;
+    left: 90px;
+    width: 732px;
+    height: 79px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
